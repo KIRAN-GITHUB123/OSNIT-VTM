@@ -5,7 +5,7 @@
 > Recorded Accuracy: 72-78%; varies by scene and quality of images sourced from Mapillary.
 > 
 
-## 🎯 Executive Summary
+## Executive Summary
 
 The OSINT-VTM (Open-Source Intelligence Visual Threat Mapper) is a framework designed for the automated discovery and analysis of security and safety risks from geotagged street-level imagery.
 
@@ -14,7 +14,7 @@ Traditional manual analysis of platforms like Mapillary is infeasible at scale, 
 Beyond simple object detection, the system fuses low-level detections into high-level, actionable intelligence, outputting a complete intelligence product that includes a multi-page PDF threat report and an interactive map.
 
 
-## 🏗️ System Architecture & Methodology
+## System Architecture & Methodology
 
 The pipeline transforms raw geotagged images into a structured intelligence report through a multi-stage process:
 
@@ -38,7 +38,7 @@ The system moves beyond simple bounding boxes to generate situational insights:
 * **Contextual Risk Fusion (Sign Obstruction):** The system analyzes spatial overlaps between different finding types. If a "graffiti" detection overlaps heavily with a "stop sign," the system intelligently fuses these and re-classifies the event as a critical "sign_obstructed" threat.
 
 
-## 📊 Actionable Intelligence & Reporting
+## Actionable Intelligence & Reporting
 
 Detections are translated into actionable, executive-ready outputs:
 
@@ -50,7 +50,7 @@ Detections are translated into actionable, executive-ready outputs:
 
 
 
-## 🛠️ Core Tech Stack
+## Core Tech Stack
 
 * **Data Acquisition:** Mapillary Graph API
 
