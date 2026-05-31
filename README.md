@@ -1,6 +1,7 @@
 # OSINT-VTM: A Hybrid Classical-Deep Learning Framework for Automated Visual Threat Intelligence
 
 > **Note:** This repository contains the raw, single-file research prototype developed for the Computer Vision Lab Project (CSE-3144) at Manipal Institute of Technology. It is provided as proof-of-execution for the underlying business logic, parallel compute architecture, and algorithmic heuristics. The system is currently being modularized into a production-ready microservice architecture.
+> 
 > Recorded Accuracy: 72-78%; varies by scene and quality of images sourced from Mapillary.
 > 
 
